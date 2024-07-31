@@ -2,6 +2,9 @@ import project1 from "../assets/projects/1.jpg";
 import project2 from "../assets/projects/2.jpg";
 import project3 from "../assets/projects/3.jpg";
 import project4 from "../assets/projects/4.jpg";
+import project5 from "../assets/projects/5.jpg";
+import project6 from "../assets/projects/6.png";
+
 
 export const HERO_CONTENT = `I am a passionate Software Developer and 3D Designer with a diverse skill set and a drive for innovation.Experienced in fullstack for previous 2 years. Currently pursuing a B-Tech in Computer Science and Engineering, I am eager to apply my  knowledge and skills in a challenging work environment to contribute to company growth and success.`;
 
@@ -62,6 +65,22 @@ export const PROJECTS = [
       "A platform for chatting with number without saving the number.",
     technologies: ["node.js","TailwindCSS","React"],
     url:"https://wc-phi.vercel.app/"
+  },
+  {
+    title: "Wish-List",
+    image: project5,
+    description:
+      "A platform for writing our wish to be done and as completed.",
+    technologies: ["node.js","TailwindCSS","React"],
+    url:"https://to-do-list-sandy-pi.vercel.app/"
+  },
+  {
+    title: "Product-List",
+    image: project6,
+    description:
+      "A platform like amazon to purchase items of our choice.",
+    technologies: ["node.js","TailwindCSS","React"],
+    url:"https://product-list-coral.vercel.app/"
   },
 ];
 
