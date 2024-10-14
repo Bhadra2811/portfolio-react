@@ -9,11 +9,4 @@
 }
 
 /* Custom mobile styles */
-@media (max-width: 640px) {
-  button, a {
-    font-size: 14px; /* Smaller font for mobile */
-    padding: 10px; /* Increase padding for touch targets */
-    display: block; /* Stack links vertically */
-    text-align: center; /* Center-align text */
-  }
-}
+
